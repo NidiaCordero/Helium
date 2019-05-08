@@ -1,0 +1,37 @@
+header {
+    .bg-header {
+
+        width: 100%;
+        height: 400px;
+        z-index: -33333;
+        margin-top: 0;
+        top: 0;
+        position: absolute;
+
+    }
+
+    nav {
+        z-index: 100;
+        background-color: rgba(255, 255, 255, 0.085);
+        width: 100%;
+        -moz-box-shadow: 0px 1px 10px 0px #343434;
+        -webkit-box-shadow: 0px 1px 10px 0px #343434;
+        -o-box-shadow: 0px 1px 10px 0px #343434;
+        box-shadow: 0px 1px 10px 0px #343434;
+        filter: progid:DXImageTransform.Microsoft.Shadow(color=#343434, Direction=180, Strength=10);
+
+        a {
+            color: white;
+
+            &:hover {
+                color: $beige;
+                transition: 0.5s;
+            }
+        }
+        .navbar-brand {
+            color: $beige;
+        }
+
+
+    }
+}

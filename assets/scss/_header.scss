@@ -2,12 +2,17 @@ header {
     .bg-header {
 
         width: 100%;
-        
-      
+
+
         margin-top: 0;
         top: -60px;
         position: relative;
 
+    }
+
+    .container {
+        padding-left: 7%;
+        padding-right: 7%;
     }
 
     nav {
@@ -32,11 +37,20 @@ header {
         .navbar-brand {
             color: $beige;
         }
+
         li {
             padding-left: 10px;
             padding-right: 10px;
+
         }
 
+        .active {
+            a {
+
+
+                color: $beige;
+            }
+        }
 
         // caroussel
 

@@ -10568,6 +10568,11 @@ header .bg-header {
   position: relative;
 }
 
+header .container {
+  padding-left: 7%;
+  padding-right: 7%;
+}
+
 header nav {
   z-index: 100;
   background-color: rgba(255, 255, 255, 0.085);
@@ -10595,6 +10600,10 @@ header nav .navbar-brand {
 header nav li {
   padding-left: 10px;
   padding-right: 10px;
+}
+
+header nav .active a {
+  color: #f23346;
 }
 
 .carousel-indicators li {
@@ -10691,6 +10700,11 @@ header nav li {
   color: #f23346;
   -webkit-transition: 0.5s;
   transition: 0.5s;
+}
+
+.avant_footer .reseau .col-3 {
+  padding: 0px;
+  margin: 0px;
 }
 
 .avant_footer .copy {

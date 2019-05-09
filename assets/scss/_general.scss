@@ -1,0 +1,38 @@
+// about section
+.about {
+    position: relative;
+    // regularisation par rapport au header
+    top: -60px;
+    background-color: $gris;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    .circle-icon {
+        margin: auto;
+    }
+
+    .card {
+        // enlever les bords aux cards
+        border: none;
+        background-color: $gris;
+        i {
+            padding-bottom: 15px;  
+        }
+// couleurs personnalise 
+        .fa-address-card {
+            color: green!important;
+        }
+
+        .fa-book-open {
+            color: yellow;
+        }
+
+        .fa-bezier-curve {
+            color: green;
+        }
+
+        .fa-walking {
+            color: yellow;
+        }
+    }
+
+}

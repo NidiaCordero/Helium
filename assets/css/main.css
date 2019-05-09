@@ -10563,11 +10563,10 @@ a.text-dark:hover, a.text-dark:focus {
 
 header .bg-header {
   width: 100%;
-  height: 400px;
   z-index: -33333;
   margin-top: 0;
-  top: 0;
-  position: absolute;
+  top: -50px;
+  position: relative;
 }
 
 header nav {
@@ -10592,5 +10591,52 @@ header nav a:hover {
 
 header nav .navbar-brand {
   color: #f23346;
+}
+
+.carousel-indicators li {
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+}
+
+.carousel-caption.d-none.d-md-block {
+  top: 40%;
+}
+
+.about {
+  position: relative;
+  top: -60px;
+  background-color: #cccccc;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.about .circle-icon {
+  margin: auto;
+}
+
+.about .card {
+  border: none;
+  background-color: #cccccc;
+}
+
+.about .card i {
+  padding-bottom: 15px;
+}
+
+.about .card .fa-address-card {
+  color: green !important;
+}
+
+.about .card .fa-book-open {
+  color: yellow;
+}
+
+.about .card .fa-bezier-curve {
+  color: green;
+}
+
+.about .card .fa-walking {
+  color: yellow;
 }
 /*# sourceMappingURL=main.css.map */

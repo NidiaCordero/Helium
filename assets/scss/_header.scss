@@ -28,20 +28,13 @@ header {
                 transition: 0.5s;
             }
         }
+
         .navbar-brand {
             color: $beige;
         }
 
-    }
-}
 
-// caroussel
-.carousel-indicators li {
-    height: 15px;
-    width: 15px;
-    border-radius: 50%;
-  }
-//   centrer les titres du caroussel
-  .carousel-caption.d-none.d-md-block {
-    top: 40%;
+        // caroussel
+        
+    }
 }

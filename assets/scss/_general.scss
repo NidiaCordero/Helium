@@ -27,11 +27,11 @@
         }
 
         .fa-bezier-curve {
-            color: green;
+            color: red;
         }
 
         .fa-walking {
-            color: yellow;
+            color: purple;
         }
     }
 
@@ -43,15 +43,21 @@
     .cadre {
         width: 100px;
         height: 50px;
-        background-color: red;
+        background-color: purple ;
         text-align: center;
         line-height: 50px;
+        color: white;
        &:nth-child(2) {
         margin-top: 30px;
        
        }
+       
         
     }
+    .perso {
+        
+    }
+
     .contenu {
         margin-bottom: 30px;
         

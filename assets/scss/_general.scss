@@ -36,3 +36,23 @@
     }
 
 }
+// animation section
+.animation {
+
+    .cadre {
+        width: 100px;
+        height: 50px;
+        background-color: red;
+        text-align: center;
+        line-height: 50px;
+       &:nth-child(2) {
+        margin-top: 30px;
+       
+       }
+        
+    }
+    .contenu {
+        margin-bottom: 30px;
+        
+    }
+}

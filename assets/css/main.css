@@ -10639,4 +10639,20 @@ header nav .navbar-brand {
 .about .card .fa-walking {
   color: yellow;
 }
+
+.animation .cadre {
+  width: 100px;
+  height: 50px;
+  background-color: red;
+  text-align: center;
+  line-height: 50px;
+}
+
+.animation .cadre:nth-child(2) {
+  margin-top: 30px;
+}
+
+.animation .contenu {
+  margin-bottom: 30px;
+}
 /*# sourceMappingURL=main.css.map */

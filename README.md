@@ -6,9 +6,9 @@ Outils utilisés :
   - Font Awesome
   - Animate.css
   
-Travailler aves 
+Travailler avec : 
 
-    - Sass
+    - SASS
     - NPM
     
 

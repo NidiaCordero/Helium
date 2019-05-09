@@ -10563,7 +10563,6 @@ a.text-dark:hover, a.text-dark:focus {
 
 header .bg-header {
   width: 100%;
-  z-index: -33333;
   margin-top: 0;
   top: -50px;
   position: relative;
@@ -10640,6 +10639,10 @@ header nav .navbar-brand {
   color: yellow;
 }
 
+.animation {
+  padding-bottom: 50px;
+}
+
 .animation .cadre {
   width: 100px;
   height: 50px;
@@ -10654,5 +10657,41 @@ header nav .navbar-brand {
 
 .animation .contenu {
   margin-bottom: 30px;
+}
+
+.avant_footer {
+  background-color: black;
+  padding-top: 50px;
+  color: white;
+}
+
+.avant_footer .menu ul {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.avant_footer .menu a {
+  text-decoration: none;
+  color: white;
+}
+
+.avant_footer .menu a:hover {
+  color: #f23346;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.avant_footer .reseau .fab:hover {
+  color: #f23346;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.avant_footer .copy {
+  margin-top: 50px;
+}
+
+.avant_footer .copy p {
+  font-size: 10px;
 }
 /*# sourceMappingURL=main.css.map */

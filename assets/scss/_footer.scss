@@ -1,0 +1,39 @@
+.avant_footer {
+    background-color: black;
+    padding-top: 50px;
+    color: white;
+
+    .menu {
+        ul {
+            list-style: none;
+            padding-left: 0px;
+        }
+
+
+        a {
+            text-decoration: none;
+            color: white;
+
+
+            &:hover {
+                color: $beige;
+                transition: 0.5s;
+            }
+        }
+
+    }
+    .reseau {
+        .fab {
+            &:hover {
+                color: $beige;
+                transition: 0.5s;
+            }
+        }
+    }
+    .copy {
+        margin-top: 50px;
+        p {
+            font-size: 10px;
+        }
+    }
+}
